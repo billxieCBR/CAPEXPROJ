@@ -238,7 +238,7 @@
 				"id": "name",
 				"label": "Name",
 				"type": "string",
-				"value": "${context.Investment.Name}"
+				"value": "${context.Requester.Name}"
 			}],
 			"id": "usertask1",
 			"name": "Approval Task (Local Manager)"
