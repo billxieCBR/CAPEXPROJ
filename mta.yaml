@@ -6,12 +6,12 @@ modules:
   type: com.sap.application.content
   path: Capex-00
   requires:
-  - name: workflow
+  - name: wm_workflow
     parameters:
       content-target: true
 resources:
-- name: workflow
-  type: org.cloudfoundry.managed-service
+- name: wm_workflow
+  type: org.cloudfoundry.existing-service
   parameters:
-    service: workflow
+    service: wm_workflow
     service-plan: lite
