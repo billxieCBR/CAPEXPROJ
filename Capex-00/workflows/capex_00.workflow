@@ -245,7 +245,7 @@
 				"type": "string",
 				"value": "${context.Requestor.Name}"
 			},
-			{
+			            {   
 				"id": "email",
 				"label": "Email",
 				"type": "string",
@@ -256,6 +256,32 @@
 				"label": "Country",
 				"type": "string",
 				"value": "${context.Requestor.Country}"
+			},
+
+            {
+				"id": "type",
+				"label": "Type",
+				"type": "string",
+				"value": "${context.Requestor.Type}"
+			},
+			{
+				"id": "totalCost",
+				"label": "Total Cost",
+				"type": "string",
+				"value": "${context.Requestor.TotalCost}"
+			},
+
+            {
+				"id": "capex",
+				"label": "Capex",
+				"type": "string",
+				"value": "${context.Requestor.CAPEX}"
+			},
+			{
+				"id": "roi",
+				"label": "ROI",
+				"type": "string",
+				"value": "${context.Requestor.ROI}"
 			}
 			],
 			"id": "usertask1",
