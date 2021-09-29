@@ -225,7 +225,7 @@
 			"isHiddenInLogForParticipant": false,
 			"supportsForward": false,
 			"userInterface": "sapui5://comsapbpmworkflow.comsapbpmwusformplayer/com.sap.bpm.wus.form.player",
-			"recipientUsers": "${context.approvalStepsResult.Result[0].Approvers.lm_userid},${context.Requestor.UserId}",
+			"recipientUsers": "${context.approvalStepsResult.Result[0].Approvers.lm_userid}",
 			"formReference": "/forms/capex_00/CapexApproval_00.form",
 			"userInterfaceParams": [{
 				"key": "formId",
@@ -369,7 +369,7 @@
 			"isHiddenInLogForParticipant": false,
 			"supportsForward": false,
 			"userInterface": "sapui5://comsapbpmworkflow.comsapbpmwusformplayer/com.sap.bpm.wus.form.player",
-			"recipientUsers": "${context.approvalStepsResult.Result[0].Approvers.cm_userid}, ${context.Requestor.UserId}",
+			"recipientUsers": "${context.approvalStepsResult.Result[0].Approvers.cm_userid}",
 			"formReference": "/forms/capex_00/CapexApproval_00.form",
 			"userInterfaceParams": [{
 				"key": "formId",
