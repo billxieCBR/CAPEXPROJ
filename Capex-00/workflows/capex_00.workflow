@@ -205,7 +205,7 @@
 		"91fc3ef7-83f4-4656-afd9-c89572c9e2b3": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "BUSINESS_RULES",
-			"path": "/rest/v2/workingsetrule-services",
+			"path": "/rest/v2/workingset-rule-services",
 			"httpMethod": "POST",
 			"requestVariable": "${context.rulesPayload}",
 			"responseVariable": "${context.approvalStepsResult}",
