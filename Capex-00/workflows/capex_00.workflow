@@ -238,7 +238,7 @@
 				"id": "name",
 				"label": "Name",
 				"type": "string",
-				"value": "${context.Requester.Name}"
+				"value": "${context.Requestor.Name}"
 			}],
 			"id": "usertask1",
 			"name": "Approval Task (Local Manager)"
