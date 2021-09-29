@@ -235,6 +235,11 @@
 				"value": "1"
 			}],
 			"customAttributes": [{
+				"id": "userId",
+				"label": "UserId",
+				"type": "string",
+				"value": "${context.Requester.UserId}"
+			}, {
 				"id": "name",
 				"label": "Name",
 				"type": "string",
