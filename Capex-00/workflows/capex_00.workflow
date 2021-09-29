@@ -244,7 +244,20 @@
 				"label": "Name",
 				"type": "string",
 				"value": "${context.Requestor.Name}"
-			}],
+			},
+			{
+				"id": "email",
+				"label": "Email",
+				"type": "string",
+				"value": "${context.Requestor.Email}"
+			},
+			{
+				"id": "country",
+				"label": "Country",
+				"type": "string",
+				"value": "${context.Requestor.Country}"
+			}
+			],
 			"id": "usertask1",
 			"name": "Approval Task (Local Manager)"
 		},
