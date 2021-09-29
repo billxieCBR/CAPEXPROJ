@@ -312,10 +312,45 @@
 				"value": "1"
 			}],
 			"customAttributes": [{
+				"id": "userId",
+				"label": "UserId",
+				"type": "string",
+				"value": "${context.Requester.UserId}"
+			}, {
 				"id": "name",
 				"label": "Name",
 				"type": "string",
 				"value": "${context.Requestor.Name}"
+			}, {
+				"id": "email",
+				"label": "Email",
+				"type": "string",
+				"value": "${context.Requestor.Email}"
+			}, {
+				"id": "country",
+				"label": "Country",
+				"type": "string",
+				"value": "${context.Requestor.Country}"
+			}, {
+				"id": "type",
+				"label": "Type",
+				"type": "string",
+				"value": "${context.Requestor.Type}"
+			}, {
+				"id": "totalCost",
+				"label": "Total Cost",
+				"type": "string",
+				"value": "${context.Requestor.TotalCost}"
+			}, {
+				"id": "capex",
+				"label": "Capex",
+				"type": "string",
+				"value": "${context.Requestor.CAPEX}"
+			}, {
+				"id": "roi",
+				"label": "ROI",
+				"type": "string",
+				"value": "${context.Requestor.ROI}"
 			}],
 			"id": "usertask2",
 			"name": "Rework Task",
@@ -344,10 +379,45 @@
 				"value": "1"
 			}],
 			"customAttributes": [{
+				"id": "userId",
+				"label": "UserId",
+				"type": "string",
+				"value": "${context.Requester.UserId}"
+			}, {
 				"id": "name",
 				"label": "Name",
 				"type": "string",
 				"value": "${context.Requestor.Name}"
+			}, {
+				"id": "email",
+				"label": "Email",
+				"type": "string",
+				"value": "${context.Requestor.Email}"
+			}, {
+				"id": "country",
+				"label": "Country",
+				"type": "string",
+				"value": "${context.Requestor.Country}"
+			}, {
+				"id": "type",
+				"label": "Type",
+				"type": "string",
+				"value": "${context.Requestor.Type}"
+			}, {
+				"id": "totalCost",
+				"label": "Total Cost",
+				"type": "string",
+				"value": "${context.Requestor.TotalCost}"
+			}, {
+				"id": "capex",
+				"label": "Capex",
+				"type": "string",
+				"value": "${context.Requestor.CAPEX}"
+			}, {
+				"id": "roi",
+				"label": "ROI",
+				"type": "string",
+				"value": "${context.Requestor.ROI}"
 			}],
 			"id": "usertask3",
 			"name": "Approval Task (Central Manager)"
